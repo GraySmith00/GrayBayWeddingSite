@@ -1,0 +1,412 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body {
+  display: table;
+  width: 100%;
+}
+
+
+
+/*
+HERO
+======================================= */
+#hero {
+    
+}
+
+.hero-background {
+    background-image: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/image2_zpsronkgorv.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+}
+.hero-box {
+    background: black;
+    height: 160px;
+    width: 400px;
+    margin-top: -150px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+.vertical-text {
+    position: relative;
+    padding-top: 20px;
+}
+.engage-text {
+    
+    font-size: 30px;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.knot-text {
+    
+    font-size: 20px;
+}
+
+/*
+Wedding
+=====================================
+*/
+
+
+#wedding {
+    padding-top: 50px;
+    height: 400px;
+}
+
+/*
+Our Story
+=====================================
+*/
+#our-story {
+    background-image: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/IMG_5004_zpstt42shin.jpg");
+    background-position: bottom;
+    height: 600px;
+}
+
+
+/*
+Getting There
+=======================================
+*/
+
+#getting-there {
+    background-image: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/IMG_5004_zpstt42shin.jpg");
+    background-position: bottom;
+    height: 600px;
+    
+}
+
+.getting-there-box {
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    padding-top: 10px;
+}
+
+.fly-into .col-md-6 {
+    text-align: center;
+    
+}
+
+.content-box-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.fly-into .col-md-6 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.fly-into .col-md-6 h5 {
+    letter-spacing: 2px;    
+}
+
+.content-box-button {
+    margin-top: 5px;
+}
+
+.content-box-button .btn-kayak {
+    border-radius: 20px;
+    background-color: orange
+}
+
+.content-box-button .btn-primary {
+    border-radius: 20px;
+}
+
+.getting-there .hero-text {
+    padding-top: 50px;
+    
+}
+.getting-there .hero-text h1 {
+    font-size: 30px;
+    
+}
+
+.getting-there .hero-text h5 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+.getting-there .caption-text {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+    padding-top: 50px;
+}
+
+.getting-there .caption-text h5 {
+    font-size: 14px;
+    
+}
+
+.getting-there .caption-text h5 .parking {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*
+Hotels
+=======================================
+*/
+
+
+#hotels {
+    padding-top: 50px;
+}
+
+
+.content-box-icon a img {
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+
+
+.content-box-title {
+    padding-top: 10px;
+}
+
+.content-box-text a img {
+    height: 30px;
+    width: 30px; 
+    display: inline-block
+}
+
+.content-box-text a {
+    color: green; 
+}
+
+.content-box-text p {
+    color: blue;
+}
+
+.btn-airbnb:hover {
+    background: #EE4B4F;
+    width: 120px;
+    border-radius: 10px;
+    height: 30px;
+    vertical-align: middle;
+    margin: auto;
+    letter-spacing: 3.2px;
+}
+
+.btn-airbnb {
+    background: #FF5A5F;
+    width: 120px;
+    border-radius: 10px;
+    height: 30px;
+    vertical-align: middle;
+    margin: auto;
+    letter-spacing: 2.5px;
+}
+
+.btn-airbnb p {
+    color: white;
+    padding-top: 2px;
+}
+
+/*
+Rehearsal Dinner
+============================================
+*/
+#rehearsal-dinner {
+    background-image: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/littlefleet2_zpsqgibjhff.jpg");
+    padding-top: 50px; 
+    height: 600px
+}
+
+.rehearsal-box {
+    background-color: rgba(0,0,0,0.6);
+    height: 440px;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px 10px 20px 10px;
+}
+
+.rehearsal-box h2 {
+    color: white;
+/*    margin: 50px;*/
+    margin-top: 5px;
+}
+
+.rehearsal-box p {
+    font-size: 16px;
+    margin: 13px;
+}
+
+.rehearsal-box a {
+    color: deepskyblue;
+}
+
+/*
+TOOTIES
+========================================
+*/
+
+#tooties {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8e8e8+0,727272+100 */
+background: #e8e8e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #e8e8e8 0%, #727272 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e8e8e8 0%,#727272 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e8e8e8 0%,#727272 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#727272',GradientType=0 ); /* IE6-9 */
+
+}
+
+#tooties .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#tooties h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#tooties h2 {
+    margin-bottom: 30px;
+}
+/*
+Registry
+==========================================*/
+
+#registry {
+/*    background-color: #C2F5FF;*/
+    padding-top: 50px;
+}
+
+/*
+Pictures
+================================================================
+*/
+
+#pictures {
+    padding-top: 50px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7deed+0,71ceef+20,71ceef+20,21b4e2+69,b7deed+100 */
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(top,  #b7deed 0%, #71ceef 20%, #71ceef 20%, #21b4e2 69%, #b7deed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b7deed 0%,#71ceef 20%,#71ceef 20%,#21b4e2 69%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b7deed 0%,#71ceef 20%,#71ceef 20%,#21b4e2 69%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+/*
+MEDIA QUERIES
+========================================
+*/
+
+@media only screen and (max-width: 991px) {
+     
+    
+    #getting-there .hero-text h1 {
+        margin-bottom: 0px;
+    }
+    
+    #getting-there .caption-text {
+      padding-top: 10px; 
+    }
+    
+     #getting-there h5 {
+        font-size: 10px;
+    }
+    
+    #getting-there h5 .parking {
+        font-size: 15px;
+    }
+    
+    .rehearsal-box {
+        height: 460px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+      
+    .hero-box {
+        margin-top: 350px;
+    }
+    
+     #our-story h5 {
+        font-size: 17px;
+    }
+    
+    #getting-there h5 {
+        font-size: 10px;
+    }
+    
+    #getting-there h5 .parking{
+        font-size: 15px;
+        
+    }
+    
+    #tooties .tooties-one {
+        margin-bottom: 15px;
+    }
+    
+    .rehearsal-box {
+        height: 410px;
+    }
+}
+
+/*IPHONE 6*/
+
+@media only screen and (max-width: 401px) {
+    
+     .hero-box {
+        margin-top: 250px;
+    }
+    
+    .hero-background {
+        background-position: -70px 0;
+    }
+    #our-story h5 {
+        font-size: 16px;
+    }
+    
+    #getting-there h5 {
+        font-size: 8px;
+    }
+    
+    #getting-there h5 .parking{
+        font-size: 12px;   
+    }
+    
+    .rehearsal-box {
+        height: 460px;
+    }
+    
+}
+
+/*IPHONE 5*/
+    
+@media only screen and (max-width: 325px) {
+    
+    .hero-box {
+        margin-top: 200px;
+    }
+    
+    
+    
+}
+    
